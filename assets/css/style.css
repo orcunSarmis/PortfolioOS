@@ -1,23 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   display: flex;
   flex-direction: column;
   line-height: 1.3;
+  flex-wrap: wrap ;
+  background-color: black;
 }
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   padding: 1%;
   background-color: #13293d;
   color: #fff;
+  flex-wrap: wrap;
 }
 h1 {
   font-size: 200%;
 }
+nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 nav ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   min-width: 300px;
   list-style-type: none;
 }
@@ -56,6 +71,32 @@ nav a:hover:after {
   width: 100%;
 }
 
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: #fff;
+}
+
+.ABM {
+  flex: 0.5;
+  background-color: #b9c6ae;
+  padding: 10px;
+  text-align: center;
+}
+
+.tex-center {
+  display: flex;
+  flex: 1 0 200px;
+  text-align: left;
+}
+
 .hero {
   height: 800px;
   width: 100%;
@@ -65,7 +106,17 @@ nav a:hover:after {
   background-position: center;
 }
 
+.col {
+  flex: 1 0 200px;
+}
+
+.col-1 {
+  flex: 1 0 200px;
+  padding: 20px;
+}
+
 .hero-title {
+  /* font-family: Modern Love; */
   font-size: 4.5rem;
 }
 
@@ -79,27 +130,70 @@ nav a:hover:after {
   color: #fff;
 }
 
-.imgAboutPage {
-  width: 100%;
+.imgAboutPage{
+  width: 30%;
 }
 
-/* Tablet header changes  */
+.projects {
+  display: flex;
+  flex-wrap:  wrap;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.WO {
+  display: flex;
+  flex: 1 0 200px;   
+}
+
+.imageWork {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  color: #fff;
+}
+
+.apps {
+  display: flex;
+  flex: 1 0 200px;
+}
+
+.text-work {
+  display: flex;
+  width: 30%;
+  flex: 1 0 200px;
+  /* text-align: right; */
+}
+
+.img-apps {
+  width: 70%;
+  padding: 10px;
+}
+
+#gymate {
+  flex-grow: 4;
+}
+
+/* Tablet header changes  by using merdia query*/
 @media screen and (max-width: 992px) {
-  header {
-    background-color: #13293d;
+  header, nav, main {
+    flex-direction: column;
   }
 }
 
 /* Large smartphones navbar changes */
 @media screen and (max-width: 768px) {
-  header {
-    background-color: #13293d;
+  header, nav, main{
+    flex-direction: column;
   }
 }
 
 /* Small smartphones image placeholders changes */
 @media screen and (max-width: 576px) {
-  header {
-    background-color: #13293d;
+  header, nav, main {
+    flex-direction: column;
   }
 }
