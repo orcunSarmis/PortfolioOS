@@ -26,6 +26,7 @@ h1 {
   font-size: 200%;
 }
 nav {
+  /* border: 1px solid; */
   display: flex;
   flex-wrap: wrap;
 }
@@ -35,12 +36,19 @@ nav ul {
   justify-content: flex-end;
   min-width: 300px;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  padding: 0.5rem 1rem;
 }
 
 nav a {
   color: #b9c6ae;
   font-weight: bold;
   text-decoration: none;
+  
 }
 
 nav a {
