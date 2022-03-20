@@ -8,17 +8,19 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+/* Header, footer and aside paddings. */
 header,
 footer,
 aside {
   padding: 1rem;
 }
 
+/* Link scrolling speed. */
 html {
   scroll-behavior: smooth;
 }
 
+/* Body display properties. */
 body {
   display: flex;
   min-height: 100vh;
@@ -28,6 +30,7 @@ body {
   background-color: #414954;
 }
 
+/* Header display properties. */
 header {
   display: flex;
   justify-content: flex-end;
@@ -38,12 +41,14 @@ header {
   flex-wrap: wrap;
 }
 
+/* Footer display properties. */
 footer {
   display: flex;
   flex-direction: column;
   flex: 1;
 }
 
+/* Main display properties. */
 main {
   display: flex;
   flex-wrap: wrap;
@@ -54,15 +59,18 @@ aside {
   flex: 0 0 20%;
 }
 
+/* Font size of h1. */
 h1 {
   font-size: 200%;
 }
+
+/* Nav display properties. */
 nav {
-  /* border: 1px solid; */
   display: flex;
   flex-wrap: wrap;
 }
 
+/* Nav ul display elements. */
 nav ul {
   display: flex;
   justify-content: flex-end;
@@ -72,16 +80,19 @@ nav ul {
   padding: 0;
 }
 
+/* Nav paddings. */
 nav li {
   padding: 0.5rem 1rem;
 }
 
+/* Nav a elemen styling. */
 nav a {
   color: #fff;
   font-weight: bold;
   text-decoration: none;
 }
 
+/* Nav a element color and position. */
 nav a {
   position: relative;
   color: #b9c6ae;
@@ -91,10 +102,11 @@ nav a {
   padding: 0 10px;
 }
 
+/* A element's underline efect.  */
 a:after {
   content: "";
   position: absolute;
-  background-color: red;
+  background-color: #d74e2a;
   height: 3px;
   width: 0;
   left: 0;
@@ -102,14 +114,17 @@ a:after {
   transition: 0.1s;
 }
 
+/* A element color after hover. */
 a:hover {
-  color: #fff;
+  color: #d74e2a;
 }
 
+/* A element hover fucntion after. */
 nav a:hover:after {
   width: 100%;
 }
 
+/* About me display layout. */
 .container {
   display: flex;
   justify-content: left;
@@ -118,23 +133,22 @@ nav a:hover:after {
   color: #fff;
 }
 
+/* Aside display properties. */
 .ABM {
-  /* display: flex; */
   flex: 0.5;
-  /* background-color: #b9c6ae; */
   padding: 10px;
   text-align: center;
-  /* flex: 0 0 auto; */
 }
 
+/* About me title properties. */
 .tex-center {
   display: flex;
   flex: 1 0 200px;
   text-align: left;
 }
 
+/* Main bacground image properties. */
 .hero {
-  /* font-size: 3rem; */
   height: 800px;
   width: 100%;
   margin-bottom: 25px;
@@ -143,28 +157,29 @@ nav a:hover:after {
   background-position: center;
 }
 
+/* About me image */
 .col {
   flex: 1 0 200px;
 }
 
-.col-1 {
+/* About me paragraph display layout. */
+.col-1,.col-2 {
   flex: 1 0 200px;
   padding: 20px;
 }
 
-.col-2 {
-  flex: 1 0 200px;
-  padding: 20px;
-}
-
+/* Name title size. */
 .hero-title {
   font-size: 4.5rem;
 
 }
 
+/* Web developer title size. */
 .hero-desc {
   font-size: 2rem;
 }
+
+/* About me section title size. */
 .hero {
   text-align: center;
   top: 50%;
@@ -172,38 +187,21 @@ nav a:hover:after {
   color: #fff;
 }
 
+/* About me image width. */
 .imgAboutPage {
   width: 30%;
 }
 
+/* Project section display properties. */
 .projects {
-  /* display: grid;
-  grid-template-columns: 200px 200px 100px;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-gap: 2em 10px;
-  width: 100%; */
   display: flex; 
   flex-wrap:  wrap;
-  /* flex-direction: row-reverse; */
   justify-content: center;
-  /* align-items: center;  */
   color: #fff;
 }
 
-.WO {
- 
-  /* flex: 1 0 200px; */
-}
-
+/* Work images display layout. */
 .imageWork  {
-  /* display: grid; */
-  /* grid-template-columns: 200px 200px 100px; */
-  /* grid-template-columns: 1fr 1fr 1fr; */
-  /* grid-template-rows: 1fr 1fr 1fr; */
-  /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
-  /* grid-template-rows: repeat(1, 200px); */
-  /* grid-gap: 1em 10px; */
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -212,59 +210,38 @@ nav a:hover:after {
   color: #fff;
 }
 
+/* Project image size. */
 .apps {
-  /* display: grid;
-  grid-template-columns: repeat(4, 1fr); */
   max-width: 400px;
   padding: 5px; 
-  /* display: flex; */
-  /* /* flex: 1 0 200px; */
 }
 
-.text-work {
-  /* justify-content: first baseline; */
-  /* display: grid;
-  align-items: center;
-  justify-items: center; */
-  /* display: flex; */
-  /* width: 30%; */
-  /* flex: 1 0 200px; */
-  /* text-align: right; */
-}
-
+/* Project image width. */
 #gymate#form#database#horiseon {
   width: 70%;
 }
 
+/* Project big image layout. */
 .big-img {
   width: 500px;
   height: 300px;
   object-fit: cover;
 }
+
+/* Project image's padding. */
 .img-form,.img-database,.img-horiseon {
-  /* max-width: 200px; */
   padding: 5px;
   object-fit: cover;
 }
 
+/*  Resume article. */
 article {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  /* align-items: center; */
   padding: 30px;
   text-align: justify;
-  /* grid-template-columns: 100px 200px 200px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 2em 10px; */
-  /* width: 100%; */
   color: #fff;
-}
-
-Last {
-  
-  /* justify-content: flex-start;
-  justify-items: left; */
 }
 
 /* Paragraph of resume's display attributes. */
@@ -275,6 +252,7 @@ Last {
   grid-column-end: 4;
 }
 
+/* Footer Contact me postion. */
 .Me {
   justify-items: center;
   color: #fff;

@@ -1,26 +1,57 @@
-Refactoring a website code to improve accessibility standards.
-• For this project, I refactored the code of a marketing agency’s website, Horiseon, to improve accessibility and optimise their website for search engines. • Accessibility is an increasing concern for organisations with an online presence. It is critical to enhance a business’ visibility but can also have serious reputational implications. Indeed, it is the responsibility of a company to ensure their content is accessible to many users with various needs. • This project contributed to improving the code behind Horiseon’s website to make it more accessible and compliant with accessibility standards. • It was a great opportunity to familiarise myself with accessibility standards which I’ll be able to apply to future projects with similar requirements.
+# <Portfolio-OrcunSarmis>
 
-Table of Contents
-Usage
-Credits
-License
-How to Contribute
-Usage
-Actions taken to refactor and improve accessibility: • Verified that the source code was accessible using the ctrl + U and/or right click + View Source. • Review that the code used semantic HTML elements and replace non-semantic ones where required. • Increasing the efficiency of the CSS by consolidating the selectors and properties, organising them to follow the semantic structure of the HTML elements.
+## About the Project
 
+Creating a portfolio to showcase my work as a web developer.
 
-• Review the icon and image elements and implement alt attributes to improve accessibility and facilitate website navigation using assisted technology.
+## Table of Contents 
 
-• Reviewing colour contrast ratio and ensuring compliance with the 4.5,1 ratio for text content and 3.1 for headers as well as reviewing colour choices to prevent green/blue confusion for colour blind users.
+- [Built With](#BuiltWith)
+- [Installation](#Installation)
+- [Built with](#Builtwith)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [How to Contribute](#HowtoContribute)
+- [Contact](#Contact)
 
-Background colour was changed from #f2589bd to #2178ab to improve the ratio of the ‘Benefits’ section of the website.
+## Installation
 
-Credits
-Colour contrast was reviewed using WebAIM Contrast Checker.
+Open the URL in your web browser.
 
-License
-Licensed under CC-BY-SA-4.0.
+https://orcunsarmis.github.io/PortfolioOS/
 
-How to Contribute
-This project has adopted the Contributor Covenant Code of Conduct. For more information see: Contributor Covenant.
+## Built With
+
+HTML,CSS 
+
+## Usage
+
+Designed to showcase my projects as a developer. Will evolve over time to include new projects. 
+
+## Credits
+
+Colour contrast:[WebAIM Contrast Checker]( https://webaim.org/resources/contrastchecker/)
+
+Creating a colour palette that matched my image: [Image Color Picker] (https://imagecolorpicker.com/en)
+
+## License
+
+Licensed under [CC-BY-SA-4.0]( https://choosealicense.com/licenses/cc-by-sa-4.0/).
+
+## How to Contribute
+
+Ideas to make this portfolio better are welcome: 
+
+•	Open issue, discuss proposal
+•	Fork and clone repository
+•	Change code and update tests
+•	npm test
+•	npm run lint
+•	Review changes
+•	Send pull request
+
+## Contact
+
+Orcun Sarmis: yorcunsarmis@gmail.com
+Project Link: https://github.com/orcunSarmis/PortfolioOS
