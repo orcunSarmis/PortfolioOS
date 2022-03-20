@@ -25,7 +25,7 @@ body {
   flex-direction: column;
   line-height: 1.3;
   flex-wrap: wrap;
-  background-color: black;
+  background-color: #414954;
 }
 
 header {
@@ -33,7 +33,7 @@ header {
   justify-content: flex-end;
   align-items: center;
   padding: 1%;
-  background-color: #13293d;
+  background-color: #414954;
   color: #fff;
   flex-wrap: wrap;
 }
@@ -77,7 +77,7 @@ nav li {
 }
 
 nav a {
-  color: #b9c6ae;
+  color: #fff;
   font-weight: bold;
   text-decoration: none;
 }
@@ -158,8 +158,8 @@ nav a:hover:after {
 }
 
 .hero-title {
-  /* font-family: Modern Love; */
   font-size: 4.5rem;
+
 }
 
 .hero-desc {
@@ -187,7 +187,7 @@ nav a:hover:after {
   flex-wrap:  wrap;
   /* flex-direction: row-reverse; */
   justify-content: center;
-  align-items: center; 
+  /* align-items: center;  */
   color: #fff;
 }
 
@@ -222,6 +222,7 @@ nav a:hover:after {
 }
 
 .text-work {
+  /* justify-content: first baseline; */
   /* display: grid;
   align-items: center;
   justify-items: center; */
@@ -238,26 +239,35 @@ nav a:hover:after {
 .big-img {
   width: 500px;
   height: 300px;
+  object-fit: cover;
 }
 .img-form,.img-database,.img-horiseon {
   /* max-width: 200px; */
   padding: 5px;
+  object-fit: cover;
 }
 
 article {
-  display: grid;
-  grid-template-columns: 100px 200px 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  /* align-items: center; */
+  padding: 30px;
+  text-align: justify;
+  /* grid-template-columns: 100px 200px 200px;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 2em 10px;
-  width: 100%;
-  grid-template-areas: "";
+  grid-gap: 2em 10px; */
+  /* width: 100%; */
   color: #fff;
 }
 
 Last {
-  justify-items: center;
+  
+  /* justify-content: flex-start;
+  justify-items: left; */
 }
 
+/* Paragraph of resume's display attributes. */
 .lastP {
   flex: 1 0 200px;
   padding: 20px;
@@ -265,6 +275,12 @@ Last {
   grid-column-end: 4;
 }
 
+.Me {
+  justify-items: center;
+  color: #fff;
+}
+
+/* Footer display elements. */
 .footerUL {
   display: flex;
   justify-content: center;
