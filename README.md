@@ -1,4 +1,6 @@
 # <Portfolio-OrcunSarmis>
+![2](https://user-images.githubusercontent.com/79064464/166683348-78a043a0-bca9-4a83-8807-8979fb3c911e.png)
+![3](https://user-images.githubusercontent.com/79064464/166683396-9a49fe4d-54ae-497d-8b13-d6112527045f.png)
 
 ## About the Project
 
