@@ -182,7 +182,10 @@ nav a:hover:after {
 .col-1,.col-2 {
   flex: 1 0 200px;
   padding: 20px;
-  /* width: 900px; */
+}
+
+.col-1-p {
+  margin: 0 auto;
 }
 
 /* Name title size. */
@@ -246,6 +249,12 @@ nav a:hover:after {
   object-fit: cover;
 }
 
+#test {
+  /* max-width: 100%; */
+  /* height: 500px; */
+  /* max-height: 100%; */
+}
+
 /* Project image's padding. */
 .img-form,.img-database,.img-horiseon {
   padding: 5px;
@@ -289,6 +298,8 @@ article {
 } */
 
 #download {
+  display: flex;
+  flex-wrap: wrap;
   color: var(--grey);
   align-items: center;
   background: var(--lightgreen) ;
@@ -317,7 +328,7 @@ article {
 @media screen and (max-width: 992px) {
   header,
   nav,
-  main {
+  main, #download {
     margin: 0 auto;
     flex-direction: row;
   }
@@ -327,7 +338,7 @@ article {
 @media screen and (max-width: 768px) {
   header,
   nav,
-  main {
+  main, #download {
     margin: 0 auto;
     flex-direction: row;
   }
@@ -337,7 +348,7 @@ article {
 @media screen and (max-width: 576px) {
   header,
   nav,
-  main {
+  main, #download {
     margin: 0 auto;
     flex-direction: row;
   }
