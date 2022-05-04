@@ -37,6 +37,15 @@ body {
   background-color: var(--grey);
 }
 
+h1 {
+  font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif; 
+}
+
+
+h2 {
+  font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif; 
+}
+
 /* Header display properties. */
 header {
   display: flex;
@@ -265,6 +274,7 @@ article {
 .Me {
   justify-items: center;
   color: var(--white);
+  justify-content:flex-start;
 }
 
 /* Footer display elements. */
@@ -273,6 +283,35 @@ article {
   justify-content: center;
   padding: 50px;
 }
+/* #Resume {
+  display: inline-block;
+  margin: 0 auto;
+} */
+
+#download {
+  color: var(--grey);
+  align-items: center;
+  background: var(--lightgreen) ;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px;
+  border-radius: 4px;
+  height: 30px;
+  margin: 0 auto;
+}
+ #download:hover {
+   background: rgba(185, 198, 174, 80%);
+ }
+
+ .email {
+   color: Dodgerblue;
+ }
+
+/* .Last {
+  margin: 20px;
+} */
+
+
 
 /* Tablet header changes  by using merdia query*/
 @media screen and (max-width: 992px) {
