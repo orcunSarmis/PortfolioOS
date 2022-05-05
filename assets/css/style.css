@@ -243,17 +243,49 @@ nav a:hover:after {
 
 /* Project big image layout. */
 .big-img {
-
   width: 600px;
   height: 180px;
   object-fit: cover;
 }
 
-#test {
-  /* max-width: 100%; */
-  /* height: 500px; */
-  /* max-height: 100%; */
+/* hyper link styling */
+#H {
+  color: var(--white);
+  text-decoration: none;
 }
+
+#H:hover {
+  color: rgba(255, 255, 255, 80%);
+}
+
+#W {
+  color: var(--white);
+text-decoration: none;
+}
+
+#W:hover {
+  color: rgba(255, 255, 255, 80%);
+}
+
+#D {
+  color: var(--white);
+text-decoration: none;
+}
+
+#D:hover {
+  color: rgba(255, 255, 255, 80%);
+}
+
+#G {
+  color: var(--white);
+text-decoration: none;
+}
+
+#G:hover {
+  color: rgba(255, 255, 255, 80%);
+}
+
+
 
 /* Project image's padding. */
 .img-form,.img-database,.img-horiseon {
@@ -292,10 +324,7 @@ article {
   justify-content: center;
   padding: 50px;
 }
-/* #Resume {
-  display: inline-block;
-  margin: 0 auto;
-} */
+
 
 #download {
   display: flex;
