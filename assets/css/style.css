@@ -64,6 +64,11 @@ footer {
   flex: 1;
 }
 
+.col-1-about {
+flex: 1 0 200px;
+padding: 20px 50px 20px 0;
+}
+
 /* Main display properties. */
 main {
   display: flex;
@@ -143,6 +148,7 @@ nav a:hover:after {
 /* About me display layout. */
 .container {
   display: flex;
+  align-items: center;
   justify-content: left;
   flex-direction: row;
   flex-wrap: wrap;
@@ -152,7 +158,7 @@ nav a:hover:after {
 /* Aside display properties. */
 .ABM {
   flex: 0.5;
-  padding: 10px;
+  padding: 0;
   text-align: center;
 }
 
@@ -209,7 +215,7 @@ nav a:hover:after {
 
 /* About me image width. */
 .imgAboutPage {
-  width: 30%;
+  width: 60%;
 }
 
 /* Project section display properties. */
